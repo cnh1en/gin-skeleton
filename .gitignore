@@ -1,0 +1,4 @@
+configs/production.yml
+storages/logs
+go.sum
+config/production.yml

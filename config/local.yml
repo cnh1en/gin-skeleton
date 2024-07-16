@@ -1,0 +1,27 @@
+server:
+  port: 8082
+  mode: local
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  username: root
+  password: 123456
+  dbname: shopdevgo
+  maxIdleConns: 10
+  maxOpenConns: 100
+  connMaxLifetime: 10
+
+logger:
+  level: debug
+  fileName: './storages/logs/dev.001.log'
+  maxSize: 500
+  maxBackups: 3
+  maxAge: 30
+  compress: true
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  password:
+  db: 0
+  poolSize: 10
